@@ -67,7 +67,6 @@ function eliminateTeam(teams) {
  * secondHalfOfArrayIfItIsEven(["apple", "orange", "banana", "kiwi", "blueberry"]) -> []
  */
 function secondHalfOfArrayIfItIsEven(fruits) {
-  // Your code here
   if (fruits.length % 2 === 0) {
     return fruits.slice(fruits.length / 2);
   } else {
